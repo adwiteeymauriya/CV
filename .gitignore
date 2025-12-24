@@ -1,0 +1,14 @@
+# Generated files
+*.pdf
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+
+# Bun
+node_modules/
+bun.lockb
