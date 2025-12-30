@@ -44,8 +44,8 @@ work_experience:
     end_date: Present
     details:
       - Launched Flaredog, a business solutions company specializing in AI/ML infrastructure, delivering 5+ enterprise solutions with 30% efficiency gains.
-      - Built uptimex.cloud, an AI-powered self-healing infrastructure platform with intelligent root cause analysis (RCA) and automated remediation.
-      - Created Duragraph, an open-source LangGraph Cloud-compatible API with event sourcing & CQRS—self-hosted, enterprise-ready AI workflow orchestration with fault tolerance and observability.
+      - Built [Uptimex](https://uptimex.cloud), an AI-powered self-healing infrastructure platform with intelligent root cause analysis (RCA) and automated remediation.
+      - Created [Duragraph](https://duragraph.ai), an open-source LangGraph Cloud-compatible API with event sourcing & CQRS—self-hosted, enterprise-ready AI workflow orchestration with fault tolerance and observability.
       - Partnered with non-profit foundations to build an AI agent for entrepreneur support in Africa, enabling startup guidance at scale.
       - Implemented cost-efficient ML infrastructure, reducing cloud computing expenses by 25% while improving model inference speed by 50%.
     tech_stack:
