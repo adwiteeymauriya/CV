@@ -1,50 +1,51 @@
-name: Adwiteey Mauriya
+name: Adwiteey Mauriya, Ph.D.
 headline: ML Engineering & Gen AI | LLM | Fintech
-location: "Abu Dhabi, UAE | Nationality: Portuguese | UAE Golden Visa"
+location: "Zurich, Switzerland | Nationality: Portuguese | UAE Golden Visa"
 email: send@amauriya.com
 phone:
-  - "+351 927-728-594"
-  - "+1 415 980 6525"
-  - "+971 585-691-933"
+  - "+41 77-936-84-89"
 visas: Portuguese, UAE golden visa
 personal_site: amauriya.com
 github: github.com/adwiteeymauriya
 linkedin: linkedin.com/in/adwiteeymauriya
 
 summary: |
-  ML Engineering leader with 10+ years of hands-on experience building and scaling AI/ML systems. Founded Flaredog, delivering 5+ enterprise AI solutions with 30% efficiency gains. Led teams processing 200M+ daily records, achieving $10M+ annual cost savings at Tripadvisor. Reduced model inference time by 3X and cut cloud costs by 25% at Liquidity Capital. Deep expertise in LLMs, Langchain, and fintech ML—from PD models improving accuracy by 15% to financial chatbots handling 5,000+ queries monthly. Ph.D. in Physics with supercomputing experience (100K+ CPU cores).
+  12 years of hands-on experience building and scaling AI applications that enable platforms and products, highly proficient in both Python and TypeScript for backend and full-stack development. Founded Flaredog, delivering 5+ enterprise AI solutions with 30% efficiency gains. Led teams processing 200M+ daily records, achieving $10M+ annual cost savings at Tripadvisor. Reduced model inference time by 3X and cut cloud costs by 25% at Liquidity Capital. Deep expertise in LLMs, Langgraph, and fintech ML—from PD models improving accuracy by 15% to financial chatbots handling 5,000+ queries monthly. Ph.D. in Physics with supercomputing experience (100K+ CPU cores).
 
 work_experience:
-  - title: Principal AI Engineer
-    company: ADQ Group
+  - title: Staff AI Engineer
+    company: Qdata, Contango - ADQ Group
     location: Abu Dhabi, UAE
     start_date: Aug/2025
     end_date: Present
     details:
       - Refactored cloud application from proprietary services to fully open-source Kubernetes deployment, reducing infrastructure costs by 30x (~$500K annual savings).
       - Established engineering hiring processes, interview guidelines, and technical assessment rubrics, scaling the team from 3 to 12 engineers.
-      - Refactored legacy codebase, improving developer velocity by 40% and reducing onboarding time from 4 weeks to 1 week.
+      - Validated and implemented AI-augmented engineering approach within SDLC, integrating AI-powered code review, automated testing, and intelligent documentation generation—improving developer velocity by 40% and reducing onboarding time from 4 weeks to 1 week.
       - Built a lakehouse architecture for port congestion analytics platform, processing 50M+ maritime events daily with sub-second query latency.
       - Overhauled CI/CD and data pipelines, fixing 10+ stale pipelines and implementing data quality metrics with 99.5% SLA compliance—directly converting a $2M enterprise customer.
     tech_stack:
-      - Dagster
-      - Unity Catalog
-      - Azure DevOps
-      - Typescript
       - Langgraph
       - Azure AI Foundry
-      - Kubernetes
+      - LLM
       - Databricks
       - Spark
+      - React
+      - Typescript
+      - Node.js
+      - Kubernetes
+      - Azure DevOps
+      - Dagster
+      - Unity Catalog
 
-  - title: Founder/AI Engineer
-    company: Flaredog
+  - title: Founder
+    company: Flaredog OU
     location: Zurich, Switzerland
     start_date: Mar/2024
-    end_date: Present
+    end_date: Aug/2025
     details:
       - Launched Flaredog, a business solutions company specializing in AI/ML infrastructure, delivering 5+ enterprise solutions with 30% efficiency gains.
-      - Built [Uptimex](https://uptimex.cloud), an AI-powered self-healing infrastructure platform with intelligent root cause analysis (RCA) and automated remediation.
+      - Built [Uptimex](https://uptimex.ai), an AI-powered self-healing infrastructure platform with intelligent root cause analysis (RCA) and automated remediation.
       - Created [Duragraph](https://duragraph.ai), an open-source LangGraph Cloud-compatible API with event sourcing & CQRS—self-hosted, enterprise-ready AI workflow orchestration with fault tolerance and observability.
       - Partnered with non-profit foundations to build an AI agent for entrepreneur support in Africa, enabling startup guidance at scale.
       - Implemented cost-efficient ML infrastructure, reducing cloud computing expenses by 25% while improving model inference speed by 50%.
@@ -53,7 +54,6 @@ work_experience:
       - AWS
       - LLM
       - Langgraph
-      - Langchain
       - Databricks
       - Ray
       - Python
@@ -69,7 +69,7 @@ work_experience:
     start_date: May/2023
     end_date: Feb/2024
     details:
-      - Developed and deployed a financial chatbot powered by LLMs & LangChain, handling 5,000+ document-based queries monthly, reducing manual financial analysis time by 40%.
+      - Developed and deployed a financial chatbot powered by LLMs & Langgraph, handling 5,000+ document-based queries monthly, reducing manual financial analysis time by 40%.
       - Optimised probability of default (PD) model, increasing prediction accuracy by 15%, enabling data-driven risk assessments and enhancing underwriting efficiency by 30%.
       - Built a centralised feature store, consolidating 100+ financial indicators from structured & unstructured data, improving model retraining efficiency by 50%.
       - Enhanced model inference speeds by 3X through optimization in Databricks & Torch, cutting down compute costs by 25%.
@@ -78,7 +78,7 @@ work_experience:
       - NLP
       - LLM
       - Ray
-      - Langchain
+      - Langgraph
       - Databricks
       - Python
       - PySpark
@@ -114,7 +114,7 @@ work_experience:
       - Selenium
       - OpenAI
       - LLM
-      - Langchain
+      - Langgraph
       - Clickhouse
 
   - title: Data Engineer
@@ -163,7 +163,7 @@ work_experience:
       - SSIS
 
   - title: Researcher
-    company: Culham Center for Fusion Energy
+    company: Culham Center for Fusion Energy, UK Atomic Energy Authority
     location: Oxfordshire, UK
     start_date: Aug/2016
     end_date: Sep/2018
@@ -230,7 +230,7 @@ technical_skills:
     - Torch
     - Tensorflow
     - MLflow
-    - Langchain
+    - Langgraph
   bi:
     - PowerBI
     - Tableau
@@ -272,3 +272,38 @@ languages:
   - English
   - Portuguese
   - Hindi
+
+publications:
+  - title: "AI Algorithms for SRE/DevOps: Reliability and Delivery in the Agentic Era"
+    publisher: Amazon KDP
+    year: "2025"
+    url: https://www.amazon.com/dp/B0GDJFH8JX
+    description: "Covers AI-driven approaches to site reliability engineering and DevOps, including LLM-based root cause analysis, anomaly detection, agentic remediation pipelines, and self-healing infrastructure."
+
+projects:
+  - name: Duragraph
+    url: https://duragraph.ai
+    type: Open Source
+    description: "Open-source control plane for orchestrating AI workflows. Event-sourced execution with horizontal scalability and built-in observability. Self-hostable on any infrastructure as a reliable alternative to managed workflow platforms."
+    tech_stack:
+      - Golang
+      - Python
+      - Event Sourcing
+      - CQRS
+      - Docker
+  - name: Upstack Lab
+    url: https://upstacklab.com
+    type: Product / Startup
+    description: "Online learning platform for AI infrastructure and MLOps engineers. Course catalog with text/video/quiz chapters, in-browser code execution sandbox, automated certificates, real-time AI tutor chatbot, multi-language content with auto-translation, and Stripe-powered subscriptions."
+    tech_stack:
+      - TypeScript
+      - React
+      - Node.js
+
+achievements:
+  - Secured and actively utilized over €200,000 in PhD research funding from multiple prestigious international institutions including EUROfusion Consortium, University of Oxford, European Physical Society, UK Atomic Energy Authority, and Portuguese Science Foundation (FCT) throughout doctoral research tenure.
+  - Awarded competitive scholarships for Masters and Bachelors studies from KVPY (Kishore Vaigyanik Protsahan Yojana), IIT Kanpur, Indian Academy of Sciences, and Institute for Plasma Research, recognizing early research potential.
+  - Achieved 99.9 percentile in IIT-JEE (Indian Institutes of Technology Joint Entrance Examination), one of the world's most competitive entrance examinations with over 1.5 million candidates annually, placing among the top 0.1% nationwide.
+  - Selected for KVPY scholarship, awarded to approximately 150 students nationally each year out of 100,000+ applicants, recognizing exceptional aptitude in basic sciences.
+  - Secured All India Rank 185 in CSIR-UGC NET examination, qualifying for prestigious PhD research fellowships in India among 200,000+ candidates.
+  - Delivered invited talk on "Numerical Kinetics in Fusion Plasmas" at Max Planck Institute for Plasma Physics, Garching, Germany (October 2017), presenting research to leading fusion scientists.
