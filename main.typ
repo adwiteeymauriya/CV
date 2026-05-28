@@ -101,3 +101,29 @@
     #cv.soft_skills.join(", ")
   ],
 )
+
+== Publications
+
+#for pub in cv.publications [
+  #work(
+    title: pub.title,
+    company: pub.publisher,
+    location: link(pub.url)[#pub.url],
+    dates: pub.year,
+  )
+  - #pub.description
+]
+
+== Projects & Open Source
+
+#for project in cv.projects [
+  #work(
+    title: project.name + " — " + project.type,
+    company: link(project.url)[#project.url],
+    location: "",
+    dates: "",
+  )
+  - #project.description
+  - *Tech Stack*: #project.tech_stack.join(", ")
+]
+
