@@ -12,3 +12,8 @@ Thumbs.db
 # Bun
 node_modules/
 bun.lockb
+
+cv-DGE.yaml
+cv-etihad.yaml
+cv-old.yaml
+main-DGE.typ
