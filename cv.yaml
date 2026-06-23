@@ -297,8 +297,15 @@ projects:
     description: "Online learning platform for AI infrastructure and MLOps engineers. Course catalog with text/video/quiz chapters, in-browser code execution sandbox, automated certificates, real-time AI tutor chatbot, multi-language content with auto-translation, and Stripe-powered subscriptions."
     tech_stack:
       - TypeScript
-      - React
-      - Node.js
+      - Python
+      - Bun
+      - PostgreSQL
+      - Knowledge Graph
+      - Hugging Face
+      - Deepgram
+      - Pydantic AI
+      - Qdrant
+      - Flutter
 
 achievements:
   - Secured and actively utilized over €200,000 in PhD research funding from multiple prestigious international institutions including EUROfusion Consortium, University of Oxford, European Physical Society, UK Atomic Energy Authority, and Portuguese Science Foundation (FCT) throughout doctoral research tenure.
