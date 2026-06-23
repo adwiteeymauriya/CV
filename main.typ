@@ -64,7 +64,7 @@
   #for detail in job.details [
     - #parse-links(detail)
   ]
-  #if job.tech_stack.len() > 0 [
+  #if "tech_stack" in job and job.tech_stack.len() > 0 [
     - *Tech Stack*: #job.tech_stack.join(", ")
   ]
 ]
@@ -102,28 +102,42 @@
   ],
 )
 
-== Publications
+#if "publications" in cv and cv.publications.len() > 0 [
+  == Publications
 
-#for pub in cv.publications [
-  #work(
-    title: pub.title,
-    company: pub.publisher,
-    location: link(pub.url)[#pub.url],
-    dates: pub.year,
-  )
-  - #pub.description
+  #for pub in cv.publications [
+    #work(
+      title: pub.title,
+      company: pub.publisher,
+      location: link(pub.url)[#pub.url],
+      dates: pub.year,
+    )
+    - #pub.description
+  ]
 ]
 
-== Projects & Open Source
+#if "projects" in cv and cv.projects.len() > 0 [
+  == Projects & Open Source
 
-#for project in cv.projects [
-  #work(
-    title: project.name + " — " + project.type,
-    company: link(project.url)[#project.url],
-    location: "",
-    dates: "",
-  )
-  - #project.description
-  - *Tech Stack*: #project.tech_stack.join(", ")
+  #for project in cv.projects [
+    #work(
+      title: project.name + " — " + project.type,
+      company: link(project.url)[#project.url],
+      location: "",
+      dates: "",
+    )
+    - #project.description
+    #if "tech_stack" in project and project.tech_stack.len() > 0 [
+      - *Tech Stack*: #project.tech_stack.join(", ")
+    ]
+  ]
+]
+
+#if "achievements" in cv and cv.achievements.len() > 0 [
+  == Achievements
+
+  #for achievement in cv.achievements [
+    - #achievement
+  ]
 ]
 
