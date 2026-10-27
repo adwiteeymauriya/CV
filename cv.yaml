@@ -1,9 +1,9 @@
 name: Adwiteey Mauriya, Ph.D.
 headline: ML Engineering & Gen AI | LLM | Fintech
-location: "Zurich, Switzerland | Nationality: Portuguese | UAE Golden Visa"
+location: "Abu Dhabi, UAE | Nationality: Portuguese | UAE Golden Visa"
 email: send@amauriya.com
 phone:
-  - "+41 77-936-84-89"
+  - "+971 585691933"
 visas: Portuguese, UAE golden visa
 personal_site: amauriya.com
 github: github.com/adwiteeymauriya
@@ -13,12 +13,29 @@ summary: |
   12 years of hands-on experience building and scaling AI applications that enable platforms and products, highly proficient in both Python and TypeScript for backend and full-stack development. Founded Flaredog, delivering 5+ enterprise AI solutions with 30% efficiency gains. Led teams processing 200M+ daily records, achieving $10M+ annual cost savings at Tripadvisor. Reduced model inference time by 3X and cut cloud costs by 25% at Liquidity Capital. Deep expertise in LLMs, Langgraph, and fintech ML—from PD models improving accuracy by 15% to financial chatbots handling 5,000+ queries monthly. Ph.D. in Physics with supercomputing experience (100K+ CPU cores).
 
 work_experience:
+  - title: Principal AI Engineer & Acting Head of Engineering
+    company: Tahaluf AI
+    location: Abu Dhabi, UAE
+    start_date: Sep/2026
+    end_date: Present
+    details:
+      - Serving as Principal AI Engineer and Acting Head of Engineering.
+
+  - title: Principal AI Engineer
+    company: Presight AI
+    location: Abu Dhabi, UAE
+    start_date: Aug/2026
+    end_date: Sep/2026
+    details:
+      - Owned the enterprise AI and data analytics platform end to end, holding architecture, technical direction, and delivery across the product.
+
   - title: Staff AI Engineer
     company: Qdata, Contango - ADQ Group
     location: Abu Dhabi, UAE
     start_date: Aug/2025
-    end_date: Present
+    end_date: Jul/2026
     details:
+      - Seconded to Etihad from Apr/2026 to Jul/2026.
       - Refactored cloud application from proprietary services to fully open-source Kubernetes deployment, reducing infrastructure costs by 30x (~$500K annual savings).
       - Established engineering hiring processes, interview guidelines, and technical assessment rubrics, scaling the team from 3 to 12 engineers.
       - Validated and implemented AI-augmented engineering approach within SDLC, integrating AI-powered code review, automated testing, and intelligent documentation generation—improving developer velocity by 40% and reducing onboarding time from 4 weeks to 1 week.
